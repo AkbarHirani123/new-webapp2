@@ -23,6 +23,7 @@ and open the template in the editor.
     background: #333;
 }
 .centered {text-align: center}
+.right {text-align: right}
 .mt {margin-top: 50px;}
 .mb {margin-bottom: 50px;}
 .mtb {margin-top: 50px; margin-bottom: 50px;}
