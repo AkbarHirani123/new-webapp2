@@ -79,7 +79,7 @@ and open the template in the editor.
                                         <li role="separator" class="divider"></li>
                                         <li><a href="#">Voluntary Experience</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="${context}/interests.html">Interests</a></li>
+                                        <li><a href="#">Interests</a></li>
                                     </ul>
                                 </li>
                             </ul>
