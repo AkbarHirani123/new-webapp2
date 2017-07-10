@@ -1,3 +1,6 @@
+.selectedColorBox .colorBox img {
+  position: relative;
+}
 .selectedColorBox .colorBox img[alt]:after {  
   display: block;
   position: absolute;
