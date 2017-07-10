@@ -1,3 +1,18 @@
+.colorBox {
+  height: 36px;
+  width: 36px;
+  border: none;
+}
+.selectedColorBox {
+  border:none;
+  height:36px;
+  width:36px;
+}
+.selectedColorBox .colorBox {
+  border:none;
+  height:36px;
+  width:36px;
+}
 .selectedColorBox .colorBox img {
   position: relative;
 }
@@ -11,7 +26,18 @@
   background-color: #fff;
   font-family: 'Helvetica';
   font-weight: 300;
-  line-height: 2;  
   text-align: center;
   content: attr(alt);
+}
+.colorBox img {
+  border: solid 1px transparent;
+  border-radius:4px;
+  transition: all .5s ease;
+}
+.selectedColorBox .colorBox img {
+  border: solid 1px #e00;
+  border-radius:4px;
+}
+.colorBox img:hover {
+  border: solid 1px #e00;
 }
