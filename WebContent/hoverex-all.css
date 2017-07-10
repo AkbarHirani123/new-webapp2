@@ -1,3 +1,7 @@
+.selectedColorBox .colorBox img {
+  border: solid 1px transparent;
+  border-radius:3px;
+}
 .selectedColorBox .colorBox img[alt]:after {  
   display: block;
   position: absolute;
@@ -11,4 +15,7 @@
   line-height: 2;  
   text-align: center;
   content: attr(alt);
+}
+.selectedColorBox .colorBox img:hover {
+  border: solid 1px #e00;
 }
